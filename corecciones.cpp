@@ -10,41 +10,7 @@ Isaac Melendez Gatgens
 Pablo Sandi Sanchez
 2021120523
 
-Axel Solano Bejarano
-2021453483
-
-
-*/
-using namespace std;
-
-
-struct administrador{
-    string nombre;
-    administrador* sig;
-
-    administrador(string n){
-        nombre = n;
-        sig = NULL;
-    };
-};
-
-
-struct profesor{
-    int cedula;
-    string nombre;
-    profesor * sig, *ant;
-    struct enlaceProfesor * suGrupo;
-
-    profesor(string x,int c){
-        suGrupo = NULL;
-        nombre = x;
-        cedula = c;
-        sig= NULL;
-        ant= NULL;
-    }
-};
-
-
+A*/
 struct semestre{
     int sem;
     int year;
