@@ -1115,7 +1115,7 @@ void menuEstudiante(){
     int opcion;
 
     cout<<"1 - Registrar actividad cumplida o participacion"<<endl;
-    cout<<"2 - Registrarse en una charla aver"<<endl;
+    cout<<"2 - Registrarse en una charla general"<<endl;
     cout<<"3 - Consultar actividades programadas para una semana (identificar choques)"<<endl;
 
     cin>>opcion;
@@ -1181,6 +1181,15 @@ cout<<"           ~~     ^~^"<<endl;
 }
 
 int main(){
+    lisestudiante = insertarEstudianteOrdenado("Mario",2021121233);
+    lisestudiante = insertarEstudianteOrdenado("Pedro",2020211233);
+    lisestudiante = insertarEstudianteOrdenado("Juan",2019421273);
+
+    lisprofesor = insertarInicioProfesor("Allan",200390421,lisprofesor);
+    lisprofesor = insertarInicioProfesor("Fabricio",782802345,lisprofesor);
+    lisprofesor = insertarInicioProfesor("Marta",12859603,lisprofesor);
+
+    liscurso = insertarFinalCursos("Matematicas","IC-202",4,liscurso);
     liscurso = insertarFinalCursos("Estructura","IC-305",4,liscurso);
     liscurso = insertarFinalCursos("Taller","IC-501",3,liscurso);
     liscurso = insertarFinalCursos("Comunicacion","IC-102",2,liscurso);
