@@ -2167,21 +2167,8 @@ void menuProfesor(){
     }
 
     if(opcion == 4){
-        cout<<"Ingrese el año del semestre"<<endl;
-        cin>>year;
-        cout<<"Ingrese el numero del semestre"<<endl;
-        cin>>numero;
-        cout<<"Ingrese el numero del mes de la charla"<<endl;
-        cin>>mes;
-        cout<<"Ingrese el dia de la charla"<<endl;
-        cin>>dia;
-        cout<<"Ingrese el numero de la charla"<<endl;
-        int num;
-        cin>>num;
-        insertarCharlaSemestre(year, numero, mes, dia, num, lissemestre);
+        cout<<"Ingtguyyfrf el año del semestre"<<endl;
 
-        imprimirCharla(lissemestre); // solo paraprobar
-    }
 
 
     //------------------------
