@@ -2209,35 +2209,7 @@ void menuProfesor(){
 
 void menuEstudiante(){
     system("cls");
-    string nombre;
-    int opcion;
-    int carnet;
-    int numero;
-    int num;
-    string tipo;
-    int year;
-    string curso;
 
-    cout<<"1 - Registrar actividad cumplida"<<endl;
-    cout<<"2 - Registrar participacion en una charla general"<<endl;
-    cout<<"3 - Consultar actividades programadas para una semana (identificar choques)"<<endl;
-
-    cin>>opcion;
-
-    if(opcion == 1){
-        cout<<"Ingrese su carnet"<<endl;
-        cin>>carnet;
-        cout<<"Ingrese el nombre del curso"<<endl;
-        cin>>curso;
-        cout<<"Ingrese el numero del grupo"<<endl;
-        cin>>numero;
-        cout<<"Ingrese el numero de la actividad"<<endl;
-        cin>>num;
-        cout<<"Ingrese el tipo de actividad"<<endl;
-        cin>>tipo;
-        registrarActividadCumplida(carnet, curso, numero, num, tipo,lisestudiante);
-        cout<<"Actividad registrada con exito"<<endl;
-    }
 
     if(opcion == 2){
         cout<<"Ingrese el carnet del estudiante"<<endl;
