@@ -144,22 +144,6 @@ struct enlaceSemestre{
 };
 
 
-struct actividades{
-    actividades* sig;
-    int numero;
-    string fecha;
-    int valor;
-    string nombre;
-
-    actividades(int n, string f,int v, string h){
-        sig = NULL;
-        valor = v;
-        numero = n;
-        fecha = f;
-        nombre = h;
-    };
-};
-
 struct actividadesEntregadas{
     actividades* sig;
     int numero;
@@ -168,7 +152,7 @@ struct actividadesEntregadas{
     string nombre;
 
     actividadesEntregadas(int n, string f,int v, string h){
-        sig = NULL;
+        sig = si;
         valor = v;
         numero = n;
         fecha = f;
